@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev</title>
+</head>
+<body>
+    <div class="flex_container">
+        <h3 class="flex1"><a href="services.html">services</a></h3>
+        <!--<h3 class="flex2"><a href="#">blogs</a></h3>-->
+        <h3 class="flex3"><a href="about_me.html">about me</a></h3>
+    </div>
+    
+      <div class="footer_container">
+        <h3 class="f1">contact information</h3>
+        <h3 class="f2">social media</h3>
+        <h3 class="f2">about me</h3>
+    </div>
+
+    <div class="item1_container">
+        <h3 class="t1">678-813-0645</h3>
+    </div>
+    <div class="item2_container">
+        <h3 class="t2"><a href="https://www.instagram.com/web_dev_ob/">instgram</a></h3>
+        <h3 class="t2"><a href="https://www.facebook.com/people/web-dev/61551644300342/?mibextid=ZbWKwL">facebook</a></h3>
+        <h3 class="t2"><a href="https://twitter.com/digitaltech122">x or twitter</a></h3>
+    </div>
+    <div class="item3_container">
+        <h3 class="t3"><a href="about_me.html">about </a></h3>
+    </div>
+
+      <div class="title">Web Dev</div>
+     <div class="q"> I specialize in front-end web development,<br> 
+        creating visually stunning and user-friendly online<br>experiences to elevate your brand.</div>
+
+    <img class="main_img" src="main.jpg" alt="image">
+<div class="footer"></div>  
+      
+
+</body>
+<style>
+*{
+padding: 0;
+margin: 0;
+}
+.main_img{
+height: 100vh;
+width:  100%;
+opacity: 0.5;
+}
+
+.flex_container{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    gap: 13px;
+    margin-top: 8px;
+    }
+    .flex1{
+    margin-left:3% ;
+    }
+    
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    a:hover{
+    color: rgb(69, 69, 69);
+    }
+.title{
+position: absolute;
+z-index: 2;
+margin-left: 20%;
+margin-top: 18%;
+font-size: 8rem;
+}  
+.q{
+position: absolute;
+z-index: 2;
+margin-left: 14%;
+margin-top: 105%;
+font-size: 1.4rem;
+} 
+
+.footer{
+height:40vh ;
+width: 100%;
+background-color: rgb(67, 67, 67);
+}
+.footer_container{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    width: 40%;
+    height: 5vh;
+    gap: 50px;
+    margin-left: 10%;
+    margin-top: 190%;
+    }
+    .f1 ,.f2 , .f3{
+     color: rgb(0, 0, 0);
+    }
+
+ .item3_container{
+position: absolute;
+z-index: 3;
+margin-top: 4%;
+margin-left: 74%;
+margin-top:  205%;
+}
+
+.item2_container{
+position: absolute;
+z-index: 3;
+margin-left: 44%;
+margin-top:  205%;
+}
+.item1_container{
+position: absolute;
+z-index: 3;
+margin-left: 9%;
+margin-top: 205%;
+}
+
+
+
+@media only screen and (min-width: 1440px ) {
+*{
+padding: 0;
+margin: 0;
+}
+.main_img{
+height: 100vh;
+width:  100%;
+}
+
+.flex_container{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    gap: 13px;
+    margin-top: 8px;
+    }
+    .flex1{
+    margin-left:3% ;
+    }
+    
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    a:hover{
+    color: rgb(69, 69, 69);
+    }
+.title{
+position: absolute;
+z-index: 2;
+margin-left: 9%;
+margin-top: 18%;
+font-size: 8rem;
+}  
+.q{
+position: absolute;
+z-index: 2;
+margin-left: 9%;
+margin-top: 30%;
+
+} 
+
+.footer{
+height:40vh ;
+width: 100%;
+background-color: rgb(67, 67, 67);
+}
+.footer_container{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    width: 40%;
+    height: 5vh;
+    gap: 50px;
+    margin-left: 60%;
+    margin-top: 54%;
+    }
+    .f1 ,.f2 , .f3{
+     color: rgb(255, 255, 255);
+    }
+
+ .item3_container{
+position: absolute;
+z-index: 3;
+margin-left: 84%;
+margin-top:  56%;
+}
+
+.item2_container{
+position: absolute;
+z-index: 3;
+margin-left: 74%;
+margin-top:  56%;
+}
+.item1_container{
+position: absolute;
+z-index: 3;
+margin-left: 60%;
+margin-top:  56%;
+}
+}
+</style>
+</html>
